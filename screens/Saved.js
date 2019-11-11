@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions, Image, ScrollView, SafeAreaView } from 'react-native';
-const {height, width} = Dimensions.get('window')
+const { width} = Dimensions.get('window')
 export default function Saved() {
   return (
     <SafeAreaView style={{flex:1}}>
