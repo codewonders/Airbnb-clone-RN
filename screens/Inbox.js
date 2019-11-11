@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, SafeAreaView, ScrollView, Dimensions } from 'react-native';
+import { Text, View, Image, SafeAreaView, ScrollView, Dimensions } from 'react-native';
 const {width} = Dimensions.get('window')
 export default function Inbox() {
   return (
@@ -22,13 +22,4 @@ export default function Inbox() {
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
 
