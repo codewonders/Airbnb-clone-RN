@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image} from 'react-native';
+import { Text, View, Image} from 'react-native';
 import StartRating from 'react-native-star-rating'
 const Home = ({width, height, type, price, rating, name}) => {
   return (
@@ -22,13 +22,5 @@ const Home = ({width, height, type, price, rating, name}) => {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
 
 export default Home
