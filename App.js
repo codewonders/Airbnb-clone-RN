@@ -52,7 +52,7 @@ export default createBottomTabNavigator ({
     }
   },
   Profile:{
-    screen: Inbox,
+    screen: Explore,
     navigationOptions:{
       tabBarLabel: "PROFILE",
       tabBarIcon: ({tintColor}) => {
@@ -76,13 +76,5 @@ export default createBottomTabNavigator ({
     }
   }
 })
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
 
 // export default createBottomTabNavigator
