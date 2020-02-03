@@ -1,5 +1,7 @@
+![CW.](https://codewonders.dev/icons/favicon-96x96.png)
+
 # Airbnb-clone-RN-
-this is just a small airbnb clone for react native 
+This is just a small airbnb clone for react native 
 
 ## Setup
 
